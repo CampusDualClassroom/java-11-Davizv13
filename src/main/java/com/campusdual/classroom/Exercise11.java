@@ -6,6 +6,11 @@ public class Exercise11 {
         TVRemote blackRemote = new TVRemote("Negro");
         System.out.println(redRemote.getColor());
         System.out.println(blackRemote.getColor());
+
+        redRemote.turnOff();
+        blackRemote.turnOn();
     }
+
+
 
 }
